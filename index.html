@@ -2,39 +2,96 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi sitio web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Feliz San Valentín ❤️</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #4a1c1c;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-top: 0;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .heart {
+            font-size: 4em;
+            animation: latido 1.5s infinite;
+        }
+
+        @keyframes latido {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin: 40px 0 20px;
+            font-size: 0.9em;
+            color: #6b2a2a;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Bienvenidos a mi sitio</h1>
-        <p>Este es mi primer sitio con GitHub Pages</p>
+        <h1>Feliz San Valentín</h1>
+        <h2>Para alguien muy especial 💕</h2>
     </header>
 
-    <main>
-        <section>
-            <h2>¿De qué trata este sitio?</h2>
-            <p>
-                Aquí voy a presentar información, textos e imágenes
-                sobre un tema específico.
-            </p>
-        </section>
+    <div class="card">
+        <div class="heart">❤️</div>
 
-        <section>
-            <h2>Contenido</h2>
-            <ul>
-                <li>Historia</li>
-                <li>Galería</li>
-                <li>Contacto</li>
-            </ul>
-        </section>
-    </main>
+        <p>
+            Desde que llegaste a mi vida, todo tiene más color,
+            más sentido y más amor.
+        </p>
+
+        <p>
+            Gracias por cada sonrisa, cada momento compartido
+            y por hacer que incluso los días comunes sean especiales.
+        </p>
+
+        <p>
+            Hoy, y todos los días, te elijo a vos.
+        </p>
+
+        <p>
+            <strong>Con todo mi amor,</strong><br>
+            Tu nombre ✨
+        </p>
+    </div>
 
     <footer>
-        <p>© 2026 - Creado por mí</p>
+        14 de febrero 💘
     </footer>
 
 </body>
 </html>
-``
